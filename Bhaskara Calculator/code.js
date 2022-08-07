@@ -1,16 +1,15 @@
-var a = 0;
-var b = 0;
-var c = 0;
+var a = document.getElementById("var_a");
+var b = document.getElementById("var_b");
+var c = document.getElementById("var_c");
 
-prompt("Insira o valor de a = ", a);
-prompt("Insira o valor de b = ", b);
-prompt("Insira o valor de c = ", c);
+let btnCalculate = document.querySelector("#btnCalc");
 
-// if (a = 0){
-//     alert("Variable a does not receive value 0")
-// }
+btnCalculate.addEventListener('click' , function() {
+    var delta = b * b - 4 * a * c;
+    delta = document.getElementById("delta").innerHTML;
+});
 
-var delta = b * b - 4 * a * c;
+/*var delta = b * b - 4 * a * c;
 document.getElementById("delta").innerHTML = delta;
 
 if (delta <= -1 )
@@ -20,4 +19,4 @@ document.getElementById("var_x1").innerHTML = x1;
 
 var x2 = (-b - delta/delta) / 2*a
 document.getElementById("var_x1").innerHTML = x2;
-
+*/
