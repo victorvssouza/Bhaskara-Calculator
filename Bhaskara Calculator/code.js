@@ -1,6 +1,6 @@
-var a = document.getElementById("var_a");
-var b = document.getElementById("var_b");
-var c = document.getElementById("var_c");
+let a = parseInt(document.getElementById("var_a"));
+let b = parseInt(document.getElementById("var_b"));
+let c = parseInt(document.getElementById("var_c"));
 
 let btnCalculate = document.querySelector("#btnCalc");
 
